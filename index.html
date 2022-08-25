@@ -73,35 +73,13 @@
 
 <body>
     <div class="container">
-        <h3>Best Jokes to make Your Day Baby</h3>
+        <h3>Best Jokes to make Your Day </h3>
         <div class="joke" id="joke">Awesome Jokes are loading</div>
         <button class="btn" id="jokeBtn">Next Joke</button>
     </div>
     <script>
         const jokeBtn = document.getElementById("jokeBtn");
         const joke = document.getElementById("joke");
-
-
-
-        // const generateJokes = ()=>{
-
-        //     const setHeader = {
-        //         headers:{
-        //             Accept : "application/json"
-        //         }
-        //     }
-
-        //     fetch('https://icanhazdadjoke.com/',setHeader)
-        //     .then((res)=> res.json())
-        //     .then((data)=>{
-        //         joke.innerHTML = data.joke;
-        //     })
-
-
-        //         .catch((error)=>{
-        //         console.log(error);
-        //     })
-        // }
 
 
         const generateJokes = async () => {
